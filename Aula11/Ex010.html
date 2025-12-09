@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran KKKK</title>
+    <style>
+        body{
+            background-color: black;
+            font: normal 15pt Arial;
+        }
+        h1#title_one{
+            color: white;
+        }
+        p#input_one{
+            color: white;
+        }
+        p#cont_one{
+            color: white;
+        }
+        div#resultado{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <h1 id="title_one">Sistemas de Multas</h1>
+    <p id="input_one">Velocidade do carro:</p> <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="verificar" onclick="clicar()"><p id="cont_one">Km/h</p>
+    <div id="resultado">Resultado: </div>
+    <script>
+        
+        function calcular(){
+            var txtv = document.querySelector('input#txtvel')
+            var vel = Number(txtv.value)
+            var res = document.querySelector('div#resultado')
+            resultado.innerHTML = `Sua velocidade atual é de ${vel}`
+        }
+    </script>
+</body>
+</html>
