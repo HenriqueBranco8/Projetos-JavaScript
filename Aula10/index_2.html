@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        body{
+            background-color: rgb(66, 57, 57);
+            font: normal 15pt Arial;
+        }
+        h1#titulo_one{
+            color: white;
+           
+        }
+        div#resultado{
+            color: White;
+            margin-top: 20px;
+        }
+        input{
+            font: normal 15pt Arial;
+            width: 100px;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <h1 id="titulo_one">Somando Valores</h1>
+    <input type="number" name="text1" id="text1"> +
+    <input type="number" name="text2" id="text2">
+    <input type="button" value="somar" id="somar">
+    <div id="resultado">Resultado: </div>
+    <script>
+        var text1 = document.getElementById('text1')
+        var text2 = document.getElementById('text2')
+        var resultado = document.getElementById
+        ('resultado')
+        somar.addEventListener('click', soma)
+        function soma(){
+            var n1 = Number(text1.value)
+            var n2 = Number(text2.value)
+            var s = n1 + n2
+            resultado.innerHTML = `Resultado: ${s}`
+        }
+    </script>
+</body>
+</html>
