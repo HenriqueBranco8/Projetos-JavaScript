@@ -1,20 +1,28 @@
-body{
-            font: normal 20px Arial; 
-        }
+@font-face {
+    font-family: test;
+    src: url();
+}
+        
+        
+        
+        
         h1 {
-            background-color: #02A5E6;
-            color: white;
-            text-align: center;
+            font: normal 50px Courier New;
+            color: #03A5E6;
+            text-align: left;
             margin-top: 8px;
+        }
+        div.espaco-subtitulo{
+            height: 70px;
+            background-color: #03A5E6;
+            color: white;
+            margin-top: -70px;
         }
 
         p.subtitulo{
-            width: 400px;
+            font: normal 25px Helvetica;
+            color: #ffffff;
             text-align: center;
-            background-color: #03A5E6;
-            color: white;
-            
-           
         }
 
         img.brasil{

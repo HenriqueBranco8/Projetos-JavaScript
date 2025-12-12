@@ -12,12 +12,13 @@
     </style>
 </head>
 <body>
+
    <h1>Sistemas de Multas</h1>
    Velocidade do carro <input type="number" name="txtvelocidade" id="txtvelocidade"> Km/h
    <input type="button" value="verificar" onclick="calcular()">
    <div id="resultado"></div>
+
     <script>
-       
         function calcular(){
             var txtvel = document.querySelector('input#txtvelocidade')
             var res = document.querySelector('div#resultado')
