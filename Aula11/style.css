@@ -1,13 +1,9 @@
 @font-face {
     font-family: test;
-    src: url();
-}
-        
-        
-        
-        
+    src: url(fonts/static/Geom-Black.ttf);
+}   
         h1 {
-            font: normal 50px Courier New;
+            font: normal 50px test;
             color: #03A5E6;
             text-align: left;
             margin-top: 8px;
