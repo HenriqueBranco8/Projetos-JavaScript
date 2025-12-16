@@ -1,22 +1,19 @@
 @font-face {
     font-family: test;
     src: url(fonts/static/Geom-Black.ttf);
-}   
+    font-family: h2;
+    src: url(fonts/static/Geom-Regular.ttf);
+} 
+
         h1 {
             font: normal 50px test;
             color: #03A5E6;
             text-align: left;
             margin-top: 8px;
         }
-        div.espaco-subtitulo{
-            height: 70px;
-            background-color: #03A5E6;
-            color: white;
-            margin-top: -70px;
-        }
 
-        p.subtitulo{
-            font: normal 25px Helvetica;
+        h2.subtitulo{
+            font: normal 25px h2;
             color: #ffffff;
             text-align: center;
         }
@@ -28,5 +25,19 @@
             height: 100px
         }
         input#entradanacionalide{
-            margin-top: 400px;
+            margin-top: 60px;
+        }
+
+        section{
+            border-radius: 10px;
+            height: 400px;
+            background-color: #03A5E6;
+            color: white;
+            margin-top: -80px;
+        }
+        img.imagen-one{
+            width: 600px;
+            height: 400px;
+            margin-top: -0px;
+            margin-left: 350px;
         }
