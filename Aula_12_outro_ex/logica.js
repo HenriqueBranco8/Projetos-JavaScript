@@ -35,7 +35,7 @@ function verificar(){
             //criança
         } else if (idade >= 12 && idade < 18){
              //adolecente
-        }else if (idade >= 18 && idade < 64){
+        }else if (idade >= 18 && idade < 59){
             //adulto
         } else {
             //idoso
