@@ -1,16 +1,31 @@
 
 body{
-    font: normal 20pt Arial;
+   font: normal 15pt Arial;
+   background: gray;
 }
 h1{
     text-align: center;
 }
 input#add_idade{
-    margin-top: 60px;
+    position: relative;
+    left: 195px;
+    top: 6px;
+}
+
+input#botton_masculino{
+    position: relative;
+    left: 65px;
+    top: -42px;
+}
+
+input#botton_feminino{
+    position: relative;
+    left: 190px;
+    top: -42px;
 }
 
 section{
-    background-color: #09E5ED;
+    background-color: #2a4142;
     width: 700px;
     height: 500px;
     margin: auto;
