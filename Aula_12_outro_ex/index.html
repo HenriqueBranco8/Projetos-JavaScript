@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+
+    <section>
+        <div style="position: relative; left: 20px;">
+           <p>
+            Ano de nascimento:
+            <input type="number" name="txtano" id="txtano" min="0">
+          </p>
+
+          <p>
+            Sexo:
+            <input type="radio" name="radsex" id="masculino" checked>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="radsex" id="feminino">
+            <label for="feminino">Feminino</label>
+
+            
+
+          </p>
+
+          <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+          </p>
+        </div>
+
+        <div id="res" style="text-align: center;">
+            <p>Adicione as informações para calcular sua idade </p>
+        </div>
+    </section>
+
+
+    <footer> 
+        <p style="text-align: center;">
+            &copy; Henrique Branco
+        </p>
+    </footer>
+    <script src="logica.js"></script>
+</body>
+</html>

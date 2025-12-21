@@ -26,6 +26,12 @@ h1{
     font: titulo;
     
 }
+div#escrevehora{
+    text-align: center;
+}
+div#imgs{
+    text-align: center;
+}
 footer{
     text-align: center;
     color: white;
