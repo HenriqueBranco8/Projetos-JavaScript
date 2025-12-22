@@ -1,0 +1,16 @@
+body{
+    background-color: #8D6DB7;
+    font: normal 20px Arial;
+}
+section{
+    background-color: #F5F070;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50pt;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
